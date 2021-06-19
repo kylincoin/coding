@@ -1,27 +1,19 @@
 {
-  "name": "Compound",
-  "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/compound-interface.svg",
+  "name": "KYC",
+  "logoURI": "https://github.com/kylincoin/coding/blob/main/kylincoin.png",
   "keywords": [
-    "compound",
-    "defi"
+    "KYC",
+    "KylinCoin"
   ],
   "timestamp": "2021-05-27T20:37:00.000+00:00",
   "tokens": [
     {
       "chainId": 1,
-      "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
+      "address": "0xB3927c490548ff8E071DaB5190E4E4004b5Cb6A8",
       "name": "0x Protocol Token",
-      "symbol": "ZRX",
+      "symbol": "KYC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_ZRX.svg"
-    },
-    {
-      "chainId": 1,
-      "address": "0x39AA39c021dfbaE8faC545936693aC917d5E7563",
-      "name": "Compound USD Coin",
-      "symbol": "cUSDC",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/ctoken_usdc.svg"
     }
   ],
   "version": {
