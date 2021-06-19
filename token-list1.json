@@ -5,7 +5,7 @@
     "KYC",
     "KylinCoin"
   ],
-  "timestamp": "2021-05-27T20:37:00.000+00:00",
+  "timestamp": "2021-06-20T20:37:00.000+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -13,7 +13,7 @@
       "name": "0x Protocol Token",
       "symbol": "KYC",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_ZRX.svg"
+      "logoURI": "https://github.com/kylincoin/coding/blob/main/kylincoin.png"
     }
   ],
   "version": {
