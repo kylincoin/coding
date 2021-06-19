@@ -1,6 +1,6 @@
 {
   "name": "KYC",
-  "logoURI": "https://github.com/kylincoin/coding/blob/main/kylincoin.png",
+  "logoURI": "https://raw.githubusercontent.com/kylincoin/coding/main/a9e0p-yiwdw.svg",
   "keywords": [
     "KYC",
     "KylinCoin"
@@ -13,7 +13,7 @@
       "name": "0x Protocol Token",
       "symbol": "KYC",
       "decimals": 18,
-      "logoURI": "https://github.com/kylincoin/coding/blob/main/kylincoin.png"
+      "logoURI": "https://raw.githubusercontent.com/kylincoin/coding/main/a9e0p-yiwdw.svg"
     }
   ],
   "version": {
