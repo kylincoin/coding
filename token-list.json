@@ -1,0 +1,25 @@
+{
+  "name": "KYC",
+  "logoURI": "https://github.com/kylincoin/coding/blob/main/kylincoin.png",
+  "keywords": [
+      "kyc",
+      "KYC",
+      "yield"
+    ],
+    "timestamp": "2021-06-19T01:40:34.305Z",
+    "tokens": [
+      {
+      "chainId": 128,
+      "address": "0x000000000000000000000000000000",
+      "name": "KylinCoin",
+      "symbol": "KYC",
+      "decimals": 8,
+      "logoURI": "https://github.com/kylincoin/coding/blob/main/kylincoin.png"
+      }
+    ],
+    "version": {
+      "major": 0,
+      "minor": 0,
+      "patch": 0
+    }
+}
