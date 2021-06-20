@@ -12,7 +12,7 @@
       "address": "0x4e332F04Be117dcBB0E4E47845f62eD5D287CbBa",
       "name": "0x Protocol Token",
       "symbol": "KYB",
-      "decimals": 18,
+      "decimals": 2,
       "logoURI": "https://raw.githubusercontent.com/kylincoin/coding/main/xL3B4ENMpN.svg"
     }
   ],
