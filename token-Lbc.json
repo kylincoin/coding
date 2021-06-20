@@ -1,0 +1,24 @@
+{
+  "name": "LBC",
+  "logoURI": "https://raw.githubusercontent.com/kylincoin/coding/main/LBC_small.svg",
+  "keywords": [
+    "LBC",
+    "LobsterCoin"
+  ],
+  "timestamp": "2021-06-20T21:37:00.000+00:00",
+  "tokens": [
+    {
+      "chainId": 1,
+      "address": "0x2BA73B5666b8d7a8Fd69e50BF771E795F4C1FD74",
+      "name": "0x Protocol Token",
+      "symbol": "LBC",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/kylincoin/coding/main/LBC_small.svg"
+    }
+  ],
+  "version": {
+    "major": 2,
+    "minor": 0,
+    "patch": 0
+  }
+}
