@@ -26,11 +26,35 @@ TestToken = Token(contractAddress);
 
 uint256 public a;  //创建的合约代币总数
 
-function aTransfer( address[] _to, uint256[] _value) public returns(bool) {
+function approve(address _spender, uint256 _value) public returns (bool success) {
+        TestToken.approve(_spender, _value);
+        return true;
+    }
+    
+function aTransfer(address _to, uint256 _value) public returns(bool) {
+
+    TestToken.transferFrom(msg.sender, _to, _value);
+
+}
+
+
+function bBatchTransfer(address _token, address[] _dsts, uint256[] _values) public payable
+{
+    Token token = Token(_token);
+    for (uint256 i = 0; i < _dsts.length; i++) {
+        token.transferFrom(msg.sender, _dsts[i], _values[i]);
+    }
+}
+
+
+function aBatchTransfer( address[] _to, uint256[] _value) public returns(bool) {
+    
+    //   aTransfer(_to[0], _value[0]);
+    //   aTransfer(_to[1], _value[1]);
 
     for(uint i=0; i <= _to.length ; i++){
 
-        TestToken.transferFrom(msg.sender, _to[i], _value[i]);
+        aTransfer(_to[i], _value[i]);
 
     }
 
