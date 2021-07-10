@@ -14,27 +14,27 @@ function approve(address _spender, uint256 _value) public;
 
 contract A {
 
-Token TestToken;
 
-function A(address contractAddress) public {
-
-TestToken = Token(contractAddress);
-
+function A() public {
+    
 }
+
+
 
 //初始化该合约
 
 uint256 public a;  //创建的合约代币总数
 
-function approve(address _spender, uint256 _value) public returns (bool success) {
-        TestToken.approve(_spender, _value);
-        return true;
-    }
-    
-function aTransfer(address _to, uint256 _value) public returns(bool) {
+function approve(address _token, address _spender, uint256 _value) public returns (bool success) {
+    Token token = Token(_token);
+    token.approve(_spender, _value);
+    return true;
+}
 
-    TestToken.transferFrom(msg.sender, _to, _value);
 
+function aTransfer(address _token, address _to, uint256 _value) public returns(bool) {
+    Token token = Token(_token);
+    token.transferFrom(msg.sender, _to, _value);
 }
 
 
@@ -47,18 +47,6 @@ function bBatchTransfer(address _token, address[] _dsts, uint256[] _values) publ
 }
 
 
-function aBatchTransfer( address[] _to, uint256[] _value) public returns(bool) {
-    
-    //   aTransfer(_to[0], _value[0]);
-    //   aTransfer(_to[1], _value[1]);
-
-    for(uint i=0; i <= _to.length ; i++){
-
-        aTransfer(_to[i], _value[i]);
-
-    }
-
-  }
-
 }
+
 
